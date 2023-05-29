@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 password="$1"
 
 if [[ -z "$password" ]]; then
